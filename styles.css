@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(90, 27, 237);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(24, 239, 35);
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+   
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color:lawngreen;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }
+
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.carousel-item{
+    display:flex;
+    background-color: aqua;
+
+}
