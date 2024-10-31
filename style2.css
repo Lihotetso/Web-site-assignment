@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgba(24, 239, 35,0.4);
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+label{
+    margin-right: 300px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+   
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.carousel img {
+    width: 400px;
+    height: 500px;
+    display: block;
+    background-color:lawngreen;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }
+
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.carousel-item{
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    
+
+}
+.carousel-item img{
+    width: 300px;
+    height: 200px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.overlay-button{
+    text-decoration: none;
+    margin-top: 10px;
+}
+#btn-liphofung{
+position: absolute;
+margin-top: 200px;
+margin-left: -300px;
+
+.about-page img {
+    max-width: 100%; /* Responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+}
+
+}
+
+
+
